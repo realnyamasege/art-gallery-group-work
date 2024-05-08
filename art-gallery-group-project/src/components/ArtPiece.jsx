@@ -1,6 +1,7 @@
 // src/components/ArtPiece.js
 import React from "react";
 
+
 const ArtPiece = ({ artPiece }) => {
   return (
     <div className="p-4 border border-gray-200 rounded-lg">
