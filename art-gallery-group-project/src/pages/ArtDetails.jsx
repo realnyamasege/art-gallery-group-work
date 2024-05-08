@@ -1,34 +1,29 @@
-// src/pages/ArtDetailsPage.jsx
-import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+// import ArtGallery from './ArtGallery.css'
 
-const ArtDetailsPage = () => {
-    const { id } = useParams(); // Get art piece ID from URL parameters
-    const [artPiece, setArtPiece] = useState(null);
+function ArtGallery() {
+  const [art, setArt] = useState([]);
 
-    useEffect(() => {
-        // Fetch art piece details based on the ID
-        fetch(`http://localhost:3000/artPieces/${id}`)
-            .then(response => response.json())
-            .then(data => setArtPiece(d
-ata))
-            .catch(error => console.error('Error fetching art piece details:', error));
-    }, [id]);
-if (!artPiece) {
-        return <div>Loading...</div>; // Display a loading indicator while fetching data
-    }
+  useEffect(() => {
+    fetch("http://localhost:3000/artPieces") // Endpoint to fetch art pieces data
+      .then((response) => response.json())
+      .then((data) => {
+        setArt(data);
+      })
+      .catch((error) => console.error("Error fetching art pieces:", error));
+  }, []);
 
-    return (
-        <div>
-            <h2>{artPiece.title}</h2>
-            <p>Artist: {artPiece.artist}</p>
-            {/* Add more details about the art piece */}
+  return (
+    <div className="art-Gallery">
+      {art.map((artPiece) => (
+        <div key={artPiece.id} className="art-Piece">
+          <img src={artPiece.imageUrl} alt={artPiece.title} />
+          <h2>{artPiece.title}</h2>
+          <p>{artPiece.description}</p>
         </div>
-    );
-};
+      ))}
+    </div>
+  );
+}
 
-export default ArtDetailsPage;
-// npm install -g json-server
-// json-server --watch db.json --port 3000
-
-// npm install react-router-dom
+export default ArtGallery;

@@ -5,23 +5,29 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import GalleryPage from './pages/GalleryPage';
-import ArtDetailsPage from './pages/ArtDetailsPage'; // Import ArtDetailsPage component
+import ArtDetailsPage from './pages/ArtDetails'; // Import ArtDetailsPage component
 
 function App() {
-  return (
-    <Router>
-      <div>
-        <Header />
-        <Switch>
-          <Route path="/" exact component=
-{Home} />
-          <Route path="/gallery" component={GalleryPage} />
-          <Route path="/art/:id" component={ArtDetailsPage} /> {/* Route for ArtDetailsPage */}
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
-  );
+	return (
+		<Router>
+			<div>
+				<Header />
+				<Switch>
+					<Route path="/" exact>
+						<Home />
+					</Route>
+					<Route path="/gallery">
+						<GalleryPage />
+					</Route>
+					<Route path="/gallery/:id">
+						<ArtDetailsPage />
+					</Route>
+					{/* Route for ArtDetailsPage */}
+				</Switch>
+				<Footer />
+			</div>
+		</Router>
+	);
 }
 
 export default App;

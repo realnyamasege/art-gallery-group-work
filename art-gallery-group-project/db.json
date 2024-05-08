@@ -1,17 +1,16 @@
 {
-    "artPieces": [
-      {
-        "id": 1,
-        "title": "Sunflower",
-        "artist": "Vincent van Gogh",
-        "image": "art-gallery-group-project/artpieces/art1.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Starry Night",
-        "artist": "Vincent van Gogh",
-        "image": "art-gallery-group-project/artpieces/art2.jpg"
-      }
-      
-    ]
-  }
+	"artPieces": [
+		{
+			"id": 1,
+			"title": "Sunflower",
+			"artist": "Vincent van Gogh",
+			"imageUrl": "/artpieces/art1.jpg"
+		},
+		{
+			"id": 2,
+			"title": "Starry Night",
+			"artist": "Vincent van Gogh",
+			"imageUrl": "/artpieces/art2.jpg"
+		}
+	]
+}

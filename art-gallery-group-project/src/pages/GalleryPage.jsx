@@ -1,4 +1,5 @@
-// src/pages/GalleryPage.js
+// src/pages/GalleryPage.jsx
+
 import React, { useState, useEffect } from "react";
 import Gallery from "../components/Gallery";
 
@@ -7,7 +8,7 @@ const GalleryPage = () => {
 
   useEffect(() => {
     // Fetch art pieces data from JSON Server API
-    fetch("http://localhost:5000/artPieces")
+    fetch("http://localhost:3000/artPieces")
       .then((response) => response.json())
       .then((data) => setArtPieces(data))
       .catch((error) => console.error("Error fetching art pieces:", error));
