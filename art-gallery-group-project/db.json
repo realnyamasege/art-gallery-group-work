@@ -1,82 +1,17 @@
 {
-    "images": [
+    "artPieces": [
       {
         "id": 1,
-        "artist": "leornado",
-        "genre": "portrait",
-        "imageUrl": "./Images/art1.jpg"
+        "title": "Sunflower",
+        "artist": "Vincent van Gogh",
+        "image": "art-gallery-group-project/artpieces/art1.jpg"
       },
       {
         "id": 2,
-        "artist": "tom",
-        "genre": "contemporary",
-        "imageUrl": "./Images/art2.jpg"
-      },
-      {
-        "id": 3,
-        "artist": "davinci",
-        "genre": "fine art",
-        "imageUrl": "./Images/art3.jpg"
-      },
-      {
-        "id": 4,
-        "artist": "van gogh",
-        "genre": "oil",
-        "imageUrl": "./Images/art4.jpg"
-      },
-      {
-        "id": 5,
-        "artist": "picasso",
-        "genre": "texture",
-        "imageUrl": "./Images/art5.jpg"
-      },
-      {
-        "id": 6,
-        "artist": "monet",
-        "genre": "scribble",
-        "imageUrl": "./Images/art6.jpg"
-      },
-      {
-        "id": 7,
-        "artist": "modern",
-        "genre": "street",
-        "imageUrl": "./Images/art7.jpg"
-      },
-      {
-        "id": 8,
-        "artist": "dicaprio",
-        "genre": "oil",
-        "imageUrl": "./Images/art8.jpg"
-      },
-      {
-        "id": 9,
-        "artist": "lisa",
-        "genre": "color painting",
-        "imageUrl": "./Images/art9.jpg"
-      },
-      {
-        "id": 10,
-        "artist": "kampino",
-        "genre": "fine art",
-        "imageUrl": "./Images/art10.jpg"
-      },
-      {
-        "id": 11,
-        "artist": "elizabeth",
-        "genre": "scribble",
-        "imageUrl": "./Images/art11.jpg"
-      },
-      {
-        "id": 12,
-        "artist": "oppenheimer",
-        "genre": "modern art",
-        "imageUrl": "./Images/art12.jpg"
-      },
-      {
-        "id": 13,
-        "artist": "vladimir",
-        "genre": "fine art",
-        "imageUrl": "./Images/art13.jpg"
+        "title": "Starry Night",
+        "artist": "Vincent van Gogh",
+        "image": "art-gallery-group-project/artpieces/art2.jpg"
       }
+      
     ]
   }
