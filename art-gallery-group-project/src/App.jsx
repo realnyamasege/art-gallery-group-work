@@ -1,16 +1,13 @@
+import ArtPage from "./components/ArtPage";
 
-import ArtPage from './components/ArtPage'
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <ArtPage />
+      
     </div>
-  )
+  );
 }
 
-export default App
-
-
-
-
+export default App;
