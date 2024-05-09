@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "./Navbar";
 
 
 const LandingPage = () => {
   return (
     <div className="relative">
+        {/* Navbar */}
+      <Navbar />
       {/* Hero Section with Background Image */}
       <div
         className="h-screen bg-cover bg-center flex justify-center items-center"

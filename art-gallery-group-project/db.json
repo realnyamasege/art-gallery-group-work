@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "id": "2",
+      "artist": "tom",
+      "genre": "contemporary",
+      "imageUrl": "./Images/art2.jpg"
+    },
+    {
+      "id": "4",
+      "artist": "van gogh",
+      "genre": "oil",
+      "imageUrl": "./Images/art4.jpg"
+    },
+    {
+      "id": "5",
+      "artist": "picasso",
+      "genre": "texture",
+      "imageUrl": "./Images/art5.jpg"
+    },
+    {
+      "id": "6",
+      "artist": "monet",
+      "genre": "scribble",
+      "imageUrl": "./Images/art6.jpg"
+    },
+    {
+      "id": "7",
+      "artist": "modern",
+      "genre": "street",
+      "imageUrl": "./Images/art7.jpg"
+    },
+    {
+      "id": "8",
+      "artist": "dicaprio",
+      "genre": "oil",
+      "imageUrl": "./Images/art8.jpg"
+    },
+    {
+      "id": "9",
+      "artist": "lisa",
+      "genre": "color painting",
+      "imageUrl": "./Images/art9.jpg"
+    },
+    {
+      "id": "10",
+      "artist": "kampino",
+      "genre": "fine art",
+      "imageUrl": "./Images/art10.jpg"
+    },
+    {
+      "id": "11",
+      "artist": "elizabeth",
+      "genre": "scribble",
+      "imageUrl": "./Images/art11.jpg"
+    },
+    {
+      "id": "12",
+      "artist": "oppenheimer",
+      "genre": "modern art",
+      "imageUrl": "./Images/art12.jpg"
+    },
+    {
+      "id": "13",
+      "artist": "vladimir",
+      "genre": "fine art",
+      "imageUrl": "./Images/art13.jpg"
+    },
+    {
+      "id": "acd5",
+      "title": "Fine art",
+      "artist": "Skiddo",
+      "imageUrl": "https://www.shutterstock.com/shutterstock/photos/1922080322/display_1500/stock-photo-oil-portrait-painting-in-multicolored-tones-abstract-picture-of-a-beautiful-girl-conceptual-1922080322.jpg"
+    },
+    {
+      "id": "898f",
+      "title": "Boreas",
+      "artist": "John William",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Boreas.jpg"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ function ArtCard(props) {
   const { id, title, artist, imageUrl } = currentArt; // Deconstruct properties
 
   function handleDelete(id) {
-    fetch(`http://localhost:3000/images/${id}`, {
+    fetch(`https://art-gallery-group-work.onrender.com/images/${id}`, {
       method: "DELETE",
     })
       .then((data) => data.json())
