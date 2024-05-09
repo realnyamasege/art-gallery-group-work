@@ -1,20 +1,27 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
 
 const LandingPage = () => {
   return (
     <div className="relative">
+<<<<<<< HEAD
         {/* Navbar */}
       <Navbar />
+=======
+      {/* Navbar */}
+      <Navbar />
+
+>>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
       {/* Hero Section with Background Image */}
       <div
         className="h-screen bg-cover bg-center flex justify-center items-center"
         style={{
-          backgroundImage: `url(${
-            './Images/museum-background.jpg'
-          })`,
+          backgroundImage: `url(${'./Images/museum-background.jpg'})`,
         }}
       >
         <div className="text-center text-white">
@@ -69,19 +76,9 @@ const LandingPage = () => {
       </div> */}
 
       {/* Navigation Links */}
-      <div className="p-6 bg-white flex justify-center">
-        <Link to="/about" className="mx-4 text-blue-500 hover:underline">
-          About Us
-        </Link>
-        <Link to="/contact" className="mx-4 text-blue-500 hover:underline">
-          Contact
-        </Link>
-        <Link to="/events" className="mx-4 text-blue-500 hover:underline">
-          Events
-        </Link>
-      </div>
+  
     </div>
   );
 };
 
-export default LandingPage; // Export the LandingPage component
+export default LandingPage;

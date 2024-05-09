@@ -38,7 +38,7 @@ Otherwise application works perfectly well, no bugs
 ### License
 
 \*Licenced under the MIT Licence
-Copyright (c) 2023 \*\*Cynthia Rukwaro, Ezekiel Nyamasege, Rehema Somo
+Copyright (c) 2024 \*\*Cynthia Rukwaro, Ezekiel Nyamasege, Rehema Somo
 
 # React + Vite
 
