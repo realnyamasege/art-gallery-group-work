@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import ArtCard from "./ArtCard";
 
 function ArtCollection({ artCollection }) {
@@ -9,7 +9,11 @@ function ArtCollection({ artCollection }) {
   return (
     <div className="grid grid-cols-4 gap-4">
       {artCollection.map((artPiece, artCollection) => (
-        <ArtCard key={artCollection} currentArt={artPiece} />
+        <ArtCard
+          key={artCollection}
+          currentArt={artPiece}
+          onDelete={artCollection}
+        />
       ))}
     </div>
   );
