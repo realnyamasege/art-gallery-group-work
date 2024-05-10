@@ -11,7 +11,7 @@ const LandingPage = () => {
       <div
         className="h-screen bg-cover bg-center flex justify-center items-center"
         style={{
-          backgroundImage: `url(${"./Images/museum-background.jpg"})`,
+          backgroundImage: `url(${"/Images/museum-background.jpg"})`,
         }}
       >
         <div className="text-center text-white">
