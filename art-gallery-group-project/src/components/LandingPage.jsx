@@ -1,27 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
-<<<<<<< HEAD
-
-=======
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
 
 const LandingPage = () => {
   return (
     <div className="relative">
-<<<<<<< HEAD
-        {/* Navbar */}
-      <Navbar />
-=======
       {/* Navbar */}
       <Navbar />
-
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
       {/* Hero Section with Background Image */}
       <div
         className="h-screen bg-cover bg-center flex justify-center items-center"
         style={{
-          backgroundImage: `url(${'./Images/museum-background.jpg'})`,
+          backgroundImage: `url(${"./Images/museum-background.jpg"})`,
         }}
       >
         <div className="text-center text-white">
@@ -76,7 +66,6 @@ const LandingPage = () => {
       </div> */}
 
       {/* Navigation Links */}
-  
     </div>
   );
 };

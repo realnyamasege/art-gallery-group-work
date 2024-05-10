@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
 
 function AddArtForm() {
   // Form state
@@ -46,7 +41,6 @@ function AddArtForm() {
   return (
     <div className="bg-cyan-950">
       <h1 className="text-white text-2xl font-bold text-center">Add Art</h1>
-<<<<<<< HEAD
       <div
         className="min-h-screen bg-cover bg-center bg-no-repeat"
         style={{
@@ -56,17 +50,10 @@ function AddArtForm() {
           height: "70%",
         }}
       >
-=======
-      <div className="min-h-screen bg-cover bg-center bg-no-repeat" style={{backgroundImage: "url('https://images.pixexid.com/vibrant-art-gallery-abstract-paintings-commanding-attention-under-the-strategic-s1z03dp1.webp?h=699&q=70')", width: "100%", height: "70%"}}>
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
         <div className="flex justify-center items-center ">
           <form
             onSubmit={handleSubmit}
             className="flex flex-col gap-4 p-4 border rounded bg-white max-w-md"
-<<<<<<< HEAD
-=======
-            
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
           >
             <input
               type="text"
@@ -100,17 +87,9 @@ function AddArtForm() {
           </form>
         </div>
       </div>
-<<<<<<< HEAD
       <Footer />
-=======
-      <Footer/>
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
     </div>
   );
 }
 
-<<<<<<< HEAD
 export default AddArtForm;
-=======
-export default AddArtForm;
->>>>>>> 120ef3b23ec6ab2ec64c28cc1d3e8c16111ecb6c
