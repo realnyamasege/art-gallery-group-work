@@ -20,18 +20,10 @@ const LandingPage = () => {
           <p className="mt-4 text-xl">
             Experience the beauty of contemporary art
           </p>
-          <Link
-            to="/gallery"
-            className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded"
-          >
-            Explore the Gallery
-          </Link>
-          <Link
-            to="/add"
-            className="mt-6 inline-block bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded"
-          >
-            Add Artwork
-          </Link>
+          <p className="mt-4 text-xl">
+            Where all your fantansies are seen to be reality.
+          </p>
+      
         </div>
       </div>
 
