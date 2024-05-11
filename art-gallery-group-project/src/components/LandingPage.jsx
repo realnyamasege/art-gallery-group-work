@@ -7,12 +7,11 @@ const LandingPage = () => {
     <div className="relative">
       {/* Navbar */}
       <Navbar />
-
       {/* Hero Section with Background Image */}
       <div
         className="h-screen bg-cover bg-center flex justify-center items-center"
         style={{
-          backgroundImage: `url(${'./Images/museum-background.jpg'})`,
+          backgroundImage: `url(${"/Images/museum-background.jpg"})`,
         }}
       >
         <div className="text-center text-white">
@@ -59,7 +58,6 @@ const LandingPage = () => {
       </div> */}
 
       {/* Navigation Links */}
-  
     </div>
   );
 };

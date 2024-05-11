@@ -14,7 +14,7 @@ function ArtPage() {
   };
 
   useEffect(() => {
-    fetch("http://localhost:3000/images")
+    fetch("https://art-gallery-group-work.onrender.com/images")
       .then((res) => res.json())
       .then((data) => {
         setArt(data);
